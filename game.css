@@ -17,3 +17,10 @@
 .choice-text {
     padding: 1.5rem;
 }
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(252, 251, 250);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
