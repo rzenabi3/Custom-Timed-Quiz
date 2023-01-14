@@ -25,3 +25,11 @@
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
+
+.correct {
+    background-color: rgba(0, 0, 255, 0.555);
+}
+
+.incorrect {
+    background-color: rgba(255, 68, 0, 0.575);
+}
