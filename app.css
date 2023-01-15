@@ -54,6 +54,7 @@ h3 {
     align-items: center;
     max-width: 80rem;
     margin: 0 auto;
+    font-size: 50px;
 
 }
 
@@ -64,6 +65,7 @@ h3 {
 .flex-column {
     display: flex;
     flex-direction: column;
+
 }
 
 .flex-center {
@@ -85,12 +87,12 @@ h3 {
 
 /* btn */
 .btn {
-    font-size: 1.8rem;
-    padding: 1rem 0;
-    width: 20rem;
+    font-size: 18px;
+    padding: 10px 0;
+    width: 200px;
     text-align: center;
-    border: 0.1rem solid rgb(255, 252, 252);
-    margin-bottom: 1rem;
+    border: 10px solid rgb(255, 252, 252);
+    margin-bottom: 10px;
     text-decoration: none;
     color:rgb(253, 255, 255);
     background-color: rgb(15, 15, 15);
@@ -109,11 +111,25 @@ h3 {
     transform: none;
 }
 
+
+#scr {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.scr-prefix {
+    text-align: center;
+    font-size: 40px;
+}
+
+
 /* end screen */
 .end {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: bold;
 }
 form {
     width: 100%;
@@ -129,7 +145,7 @@ input {
     font-size: 18px;
     border: none;
     box-shadow: 0 1px 14px rgb(253, 252, 252);
-    color: black;
+    color: rgb(7, 7, 7);
 
 }
 
