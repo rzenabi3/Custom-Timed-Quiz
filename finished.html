@@ -9,8 +9,8 @@
     </head>
     <body>
         <div class="container">
-            <div id="end" class="flex-center flex-column">
-                <h1 id="score">0</h1>
+            <div id="end" class="flex-center flex-column">Final Score
+                <h1 id="finalScore"></h1>
                 <form>
                     <input
                     type="text"
@@ -21,8 +21,9 @@
                     <button
                     type="submit"
                     class="btn"
-                    id="keepscorebtn"
-                    onclick="savehighscore(event)">save
+                    id="keepScoreBtn"
+                    onclick="saveHighScore(event)"
+                    disabled>save
                 
                     </button>
                 
