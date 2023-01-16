@@ -47,4 +47,6 @@ READ.ME by Richard Ibanez, Code debugged by Richard Ibanez as well as UofU Instr
 
 ## Screenshot-Application
  * See Attatched Picture 
+ * ![image](https://user-images.githubusercontent.com/118157273/212588078-6737b4fb-5e51-48dc-8b3f-6de34df2991b.png)
+
 
