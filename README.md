@@ -47,7 +47,7 @@ READ.ME by Richard Ibanez, Code debugged by Richard Ibanez as well as UofU Instr
 
 ## Screenshot-Application
  * See Attatched Picture 
- * ![image](https://user-images.githubusercontent.com/118157273/212588510-2011cd7f-12b9-4749-a02d-72de24c69dc0.png)
+  ![image](https://user-images.githubusercontent.com/118157273/212588510-2011cd7f-12b9-4749-a02d-72de24c69dc0.png)
 
 
 
