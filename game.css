@@ -38,7 +38,7 @@
 
 #timeSeconds {
     font-weight: 400;
-    color: gold;
+    color: #e96281;
 
 }
 
@@ -47,6 +47,6 @@
     font-size: 25px;
     margin: 24px;
     text-decoration: underline;
-    text-decoration-color: gold;
+    text-decoration-color: #e96281;
 
 }
