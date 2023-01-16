@@ -149,3 +149,16 @@ input {
 
 }
 
+/* timer */
+.container .timer {
+    border-radius: 10px;
+    display:inline;
+    align-items: center;
+}
+
+
+.container .clock {
+    font-size: 25px;
+    text-decoration: underline;
+}
+

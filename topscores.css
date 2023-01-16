@@ -1,0 +1,14 @@
+#topScoresList {
+    list-style: disc;
+    padding-left: 0;
+    margin-bottom: 40px;
+
+}
+.top-score {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.top-score :hover {
+    transform: scale(1.025);
+}

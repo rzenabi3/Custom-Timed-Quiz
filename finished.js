@@ -5,20 +5,20 @@ const mostRecentScore = localStorage.getItem("mostRecentScore");
 
 const topScores = JSON.parse(localStorage.getItem("topScores")) || [];
 
-const MAX_TOP_SCORES = 5;
-console.log(topScores);
+const MAX_HIGH_SCORES = 5;
 
 finalScore.innerText = mostRecentScore;
 
-username.addEventListener('keyup', () =>{
+username.addEventListener('keyup', () => {
     keepScoreBtn.disabled = !username.value;
 });
 
 saveHighScore = (e) => {
+    console.log("saved");
     e.preventDefault();
 
     const score = {
-        score: mostRecentScore,
+        score: Math.floor(Math.random() * 100),
         name: username.value,
     };
     topScores.push(score);
